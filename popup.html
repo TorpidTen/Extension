@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      width: 300px;
+      height: 400px;
+      background-image: url("background.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    input {
+      width: 120px;
+      padding: 6px;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      width: 160px;
+      height: 60px;
+      background-image: url("start.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:active {
+      transform: scale(0.96);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <input id="times" type="number" value="10" min="1">
+    <button id="run" title="Start"></button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
