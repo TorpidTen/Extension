@@ -1,0 +1,10 @@
+{
+  "manifest_version": 1,
+  "name": "Automate Youre Mirosoft Rewards.",
+  "version": "1.1",
+  "description": "Random typing automation",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
